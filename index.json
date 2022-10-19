@@ -1,8 +1,12 @@
-{"projects":[{"title":"Arduino Robot","dateCreated":"2017-11-01 17:35:26"},
-{"title":"Raspberry Pi Robot","dateCreated":"2018-11-01 17:35:26"},
-{"title":"3D Printer","dateCreated":"2019-11-01 17:35:26"}],
+{"projects":
+  [
+    {"title":"Arduino Robot","dateCreated":"2017-11-01 17:35:26","author":"DevThommy"},
+    {"title":"Raspberry Pi Robot","dateCreated":"2018-11-01 17:35:26","author":"DevThommy"},
+    {"title":"3D Printer","dateCreated":"2019-11-01 17:35:26","author":"DevThommy"}
+  ],
 
-  "sensors":[
+  "sensors":
+  [
     {"title":"HC-SR04","dateCreated":"2019-11-01 17:35:26"}
-    ]
+  ]
 }
