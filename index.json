@@ -2,7 +2,8 @@
   [
     {"projectID":"PIDAA001","title":"Arduino Robot","dateCreated":"2017-11-01 17:35:26","author":"DevThommy","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Projects/arduino.jpeg?raw=true"},
     {"projectID":"PIDAA002","title":"Raspberry Pi Robot","dateCreated":"2018-11-01 17:35:26","author":"NightCoder","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Projects/raspberrypi.jpeg?raw=true"},
-    {"projectID":"PIDAA003","title":"3D Printer","dateCreated":"2019-11-01 17:35:26","author":"ArduinoForever","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Projects/3dprinter.jpeg?raw=true"}
+    {"projectID":"PIDAA003","title":"3D Printer","dateCreated":"2019-11-01 17:35:26","author":"ArduinoForever","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Projects/3dprinter.jpeg?raw=true"},
+    {"projectID":"PIDAA004","title":"Combining Arduino and Raspberry Pi","dateCreated":"2019-11-01 17:35:26","author":"DevThommy","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Projects/arduino_raspberrypi.jpeg?raw=true"}
   ],
 
   "sensors":
