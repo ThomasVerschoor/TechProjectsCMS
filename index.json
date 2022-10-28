@@ -8,10 +8,10 @@
 
   "components":
   [
-    {"title":"HC-SR04","dateCreated":"2019-11-01 17:35:26"},
-    {"title":"PIR sensor","dateCreated":"2019-11-01 17:35:26"},
-    {"title":"LED","dateCreated":"2019-11-01 17:35:26"},
-    {"title":"Breadboard","dateCreated":"2019-11-01 17:35:26"}
+    {"componentID":"CIDAA001","title":"HC-SR04","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Components/HCSR04.jpeg?raw=true"},
+    {"componentID":"CIDAA002","title":"PIR sensor","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Components/PIR.jpeg?raw=true"},
+    {"componentID":"CIDAA003","title":"LED","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Components/LEDs.jpeg?raw=true"},
+    {"componentID":"CIDAA004","title":"Breadboard","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Components/breadboard.jpeg?raw=true"}
   ],
 
   "authors":
