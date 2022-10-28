@@ -6,9 +6,12 @@
     {"projectID":"PIDAA004","title":"Combining Arduino and Raspberry Pi","dateCreated":"2019-11-01 17:35:26","author":"DevThommy","imageLink":"https://github.com/ThomasVerschoor/TechProjectsCMS/blob/master/Assets/Projects/arduino_raspberrypi.jpeg?raw=true"}
   ],
 
-  "sensors":
+  "components":
   [
-    {"title":"HC-SR04","dateCreated":"2019-11-01 17:35:26"}
+    {"title":"HC-SR04","dateCreated":"2019-11-01 17:35:26"},
+    {"title":"PIR sensor","dateCreated":"2019-11-01 17:35:26"},
+    {"title":"LED","dateCreated":"2019-11-01 17:35:26"},
+    {"title":"Breadboard","dateCreated":"2019-11-01 17:35:26"}
   ],
 
   "authors":
