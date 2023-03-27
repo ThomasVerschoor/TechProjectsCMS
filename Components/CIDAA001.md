@@ -9,14 +9,42 @@ Pin Configuration
 ------------------
 The HCSR04 sensor has four pins:
 
-Vcc: It is the power supply pin and requires a 5V DC supply.
-Trig: It is the trigger pin and is used to initiate the measurement of distance.
-Echo: It is the echo pin and receives the reflected ultrasound signal.
-GND: It is the ground pin.
+| Pin        | Description           |
+| ------------- |:-------------:|
+| Vcc    | Power supply pin which requires a 5V DC supply |
+| Trig    | Trigger pin used to initiate the measurement of distance      |
+| Echo | Echo pin which receives the reflected ultrasound signal    |   
+| GND    | Ground pin |
 
 
 Example code
 ------------------
+
+```
+#define trigPin 2
+#define echoPin 3
+
+void setup() {
+  Serial.begin (9600);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+
+void loop() {
+  long duration, distance;
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  duration = pulseIn(echoPin, HIGH);
+  distance = duration * 0.034 / 2;
+  Serial.print("Distance: ");
+  Serial.println(distance);
+  delay(500);
+}
+```
+
 
 Datasheet
 ------------------
